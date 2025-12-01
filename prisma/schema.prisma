@@ -1,0 +1,45 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Owner {
+  id           String   @id @default(uuid())
+  email        String   @unique
+  passwordHash String
+  name         String
+  firstName    String?
+  lastName     String?
+  personalAddress String?
+  nationalIdUrl String?
+  profileCompleted Boolean @default(false)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  villas       Villa[]
+}
+
+model Villa {
+  id               String   @id @default(uuid())
+  ownerId          String
+  nom              String
+  zone             String
+  ownerType        String   @default("proprietaire")
+  adresseComplete  String
+  chambres         Int
+  placesTotal      Int
+  prixTotal        Int
+  prixParPersonne  Int
+  vibe             String
+  description      String
+  photos           String
+  documents        String   @default("[]")
+  statut           String
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  owner Owner @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+}

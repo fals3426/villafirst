@@ -1,0 +1,146 @@
+[
+  {
+    "id": "1",
+    "nom": "Villa Tropical Paradise",
+    "zone": "Canggu",
+    "prixTotal": 32000000,
+    "prixParPersonne": 8000000,
+    "placesDisponible": 2,
+    "placesTotal": 4,
+    "vibe": "Work",
+    "description": "Villa moderne avec piscine, espace de coworking et vue sur les rizières. Parfaite pour les digital nomads qui cherchent un équilibre entre travail et détente.",
+    "photos": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800"
+    ],
+    "adresse": "Jl. Pantai Batu Bolong, Canggu, Badung, Bali 80351",
+    "colocataires": [
+      { "age": 28, "vibe": "Work" },
+      { "age": 32, "vibe": "Work" }
+    ],
+    "regles": [
+      "Respecter les heures de calme (22h - 8h)",
+      "Nettoyer après utilisation des espaces communs",
+      "Pas de fêtes sans prévenir les autres",
+      "Partager les frais de ménage hebdomadaire"
+    ]
+  },
+  {
+    "id": "2",
+    "nom": "Villa Sunset Beach",
+    "zone": "Pererenan",
+    "prixTotal": 28000000,
+    "prixParPersonne": 7000000,
+    "placesDisponible": 1,
+    "placesTotal": 4,
+    "vibe": "Chill",
+    "description": "Villa cosy à 5 minutes de la plage, avec jardin tropical et terrasse. Ambiance décontractée pour ceux qui veulent se ressourcer.",
+    "photos": [
+      "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800"
+    ],
+    "adresse": "Jl. Pantai Pererenan, Pererenan, Mengwi, Badung, Bali 80351",
+    "colocataires": [
+      { "age": 25, "vibe": "Chill" },
+      { "age": 29, "vibe": "Chill" },
+      { "age": 27, "vibe": "Chill" }
+    ],
+    "regles": [
+      "Respecter le calme et la tranquillité",
+      "Partager les repas si envie",
+      "Sortir les poubelles à tour de rôle",
+      "Respecter l'espace de chacun"
+    ]
+  },
+  {
+    "id": "3",
+    "nom": "Villa Party House",
+    "zone": "Seminyak",
+    "prixTotal": 36000000,
+    "prixParPersonne": 9000000,
+    "placesDisponible": 3,
+    "placesTotal": 4,
+    "vibe": "Party",
+    "description": "Villa animée au cœur de Seminyak, proche des meilleurs bars et clubs. Pour ceux qui veulent profiter de la vie nocturne balinaise.",
+    "photos": [
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800"
+    ],
+    "adresse": "Jl. Kayu Aya, Seminyak, Kuta, Badung, Bali 80361",
+    "colocataires": [
+      { "age": 24, "vibe": "Party" }
+    ],
+    "regles": [
+      "Fêtes autorisées mais prévenir à l'avance",
+      "Respecter les voisins après minuit",
+      "Nettoyer après chaque soirée",
+      "Partager les coûts des événements"
+    ]
+  },
+  {
+    "id": "4",
+    "nom": "Villa Zen Garden",
+    "zone": "Ubud",
+    "prixTotal": 24000000,
+    "prixParPersonne": 6000000,
+    "placesDisponible": 2,
+    "placesTotal": 3,
+    "vibe": "Chill",
+    "description": "Villa paisible entourée de rizières, avec jardin méditatif et espace yoga. Idéale pour ceux qui cherchent la sérénité.",
+    "photos": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800"
+    ],
+    "adresse": "Jl. Raya Ubud, Ubud, Gianyar, Bali 80571",
+    "colocataires": [
+      { "age": 30, "vibe": "Chill" }
+    ],
+    "regles": [
+      "Respecter le silence le matin (avant 9h)",
+      "Pas de musique forte",
+      "Participer aux sessions yoga si envie",
+      "Respecter la nature et l'environnement"
+    ]
+  },
+  {
+    "id": "5",
+    "nom": "Villa Digital Nomad Hub",
+    "zone": "Umalas",
+    "prixTotal": 30000000,
+    "prixParPersonne": 7500000,
+    "placesDisponible": 1,
+    "placesTotal": 4,
+    "vibe": "Mix",
+    "description": "Villa équilibrée avec espace de coworking moderne, piscine et proximité des meilleurs cafés. Pour ceux qui veulent tout : travail, détente et fun.",
+    "photos": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
+      "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=800",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=800"
+    ],
+    "adresse": "Jl. Raya Umalas, Umalas, Kuta, Badung, Bali 80361",
+    "colocataires": [
+      { "age": 26, "vibe": "Work" },
+      { "age": 31, "vibe": "Chill" },
+      { "age": 28, "vibe": "Party" }
+    ],
+    "regles": [
+      "Respecter les heures de travail (9h - 18h calme)",
+      "Partager l'espace de coworking équitablement",
+      "Fêtes le weekend uniquement",
+      "Communiquer ouvertement sur les besoins"
+    ]
+  }
+]
+
+
+
+
+
+
+
+
+
