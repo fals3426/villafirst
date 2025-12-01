@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { UploadDropzone } from "@uploadthing/react";
-import type { OurFileRouter } from "@/app/api/uploadthing/core";
 
 type DocumentsSectionProps = {
   villaId: string;
@@ -74,7 +73,7 @@ export function DocumentsSection({
         </p>
       ) : (
         <>
-          <UploadDropzone<OurFileRouter>
+          <UploadDropzone
             endpoint="villaDocuments"
             appearance={{
               button: "bg-white text-black rounded-full px-4 py-2 text-sm font-semibold",
