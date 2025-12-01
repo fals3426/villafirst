@@ -2,7 +2,10 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { UploadDropzone } from "@uploadthing/react";
+import { generateComponents } from "@uploadthing/react";
+import type { OurFileRouter } from "@/app/api/uploadthing/core";
+
+const { UploadDropzone } = generateComponents<OurFileRouter>();
 
 type DocumentsSectionProps = {
   villaId: string;
