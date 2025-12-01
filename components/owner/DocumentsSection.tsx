@@ -80,8 +80,8 @@ export function DocumentsSection({
             endpoint="villaDocuments"
             appearance={{
               button: "bg-white text-black rounded-full px-4 py-2 text-sm font-semibold",
-              dropzone: "border border-dashed border-white/20 bg-black/30 text-white",
             }}
+            className="border border-dashed border-white/20 bg-black/30 text-white"
             onClientUploadComplete={onUploadComplete}
             onUploadError={(err) => setError(err.message)}
           />
